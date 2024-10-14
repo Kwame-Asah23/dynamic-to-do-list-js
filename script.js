@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         removeButton.textContent = 'Remove';
 
         // Assign a class name to the button
-        removeButton.className = 'remove-btn';
+        removeButton.classList.add = 'remove-btn';
 
         // Assign an onclick event to the remove button to remove the <li> element
         removeButton.onclick = function () {
